@@ -3,5 +3,5 @@ project(uxb)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES library.cpp library.h Connector.cpp Connector.h)
+set(SOURCE_FILES Connector.cpp Connector.h)
 add_library(uxb ${SOURCE_FILES})
